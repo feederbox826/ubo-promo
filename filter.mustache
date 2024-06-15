@@ -1,0 +1,708 @@
+[uBlock Origin]
+! Title: feederbox-promo
+! Version: {{version}}
+! Expires: 1 day
+
+!!! START - css tweaks
+!! always show certain elements
+{{site.newsensations}}##.modelBlock>.modelName, .videoBlock>.captions:style(opacity: 1 !important;)
+{{site.jj}}##.content_img > div:style(opacity: 0.7 !important; visibility: visible !important; padding: 8px 15px !important;)
+! spankmonster
+{{site.sm}}##.scene-update a.scene-info-container:style(bottom: 2% !important; opacity: 1 !important;)
+{{site.sm}}##.grid-item>.performer>.overlay:style(opacity: 1 !important;)
+! blacked
+!!! END - css tweaks
+
+!!! START - Misc Sites
+!! misc helpers
+||translate.google.com/translate_a/element.js^
+||www.gstatic.com/*/cast_sender.js
+
+!! AdultDVDEmpire
+# class
+{{misc.advde}}##.beacon
+{{misc.advde}}##.advertisments
+{{misc.advde}}##.nav-cart
+{{misc.advde}}##.flex-grid-sex-toys
+{{misc.advde}}##.site_footer
+{{misc.advde}}##.in.fade.modal-backdrop
+{{misc.advde}}##.container-featured.container-fluid
+{{misc.advde}}##.sale
+{{misc.advde}}##.itempage > .container > div.row:not(.title-rating-section)
+{{misc.advde}}##.col-md-2.col-sm-3.col-xs-12
+{{misc.advde}}##div.container:has(>#reviewsAnchor)
+{{misc.advde}}##.pricing-container
+{{misc.advde}}##.item-grid.row
+{{misc.advde}}##.product-details-container > div.container > h2
+{{misc.advde}}##.evp-video-container
+{{misc.advde}}##.sticky-tagline
+# id
+{{misc.advde}}###nav-sextoys
+{{misc.advde}}###nav-unlimited
+{{misc.advde}}###signUpModal
+{{misc.advde}}###UserOptions
+
+!! PornHub
+# header/footer
+{{misc.ph}}###headerUpgradePremiumBtn
+{{misc.ph}}##.js-headerUploadBtn
+{{misc.ph}}###js-networkBar
+{{misc.ph}}##.footerContentWrapper
+# cams
+{{misc.ph}}##.livesex
+{{misc.ph}}##.omega.models.cam
+# tip
+{{misc.ph}}##.rightButtonHolder.contentContainer
+
+!! RedGifs
+{{site.rg}}##.sideBar>.live
+{{site.rg}}##.sideBar>.more
+
+!!! END - Misc Sites
+
+!!! START - Generic
+# a /join
+{{network.nubiles}},{{network.pornplus}},{{site.brazzers}},mofos.com,{{site.twistys}}##a[href="/join"]
+{{network.pornplus}},{{site.brazzers}},mofos.com,{{site.twistys}}##[href^="https://site-ma."]
+
+{{site.squirted}},{{site.ta}}##a[href$="/join"]
+# join header
+{{site.squirted}},{{site.ta}}##li:has(> a[href="/join"])
+
+# id footer
+{{network.5kporn}},{{site.mypervyfamily}},{{network.filthykings}},{{network.topwebmodels}}##footer
+# class footer
+{{site.jj}},{{site.mf}}##.footer
+!!! END -  Generic
+
+!!! START - Network
+! RK/ Brazzers/ Twistys/ MOFOs/ TrueAmateurs/ Squirted/ SheWillCheat
+# disclaimer
+||{{cdn.projectone}}/DisclaimerBlock.*.js^
+||{{cdn.projectone}}/PopupBlock.*.js^
+||{{cdn.projectone}}/ConditionalBlock.*.js^
+# top carousel
+||{{cdn.projectone}}/PromoSliderBlock.*.js^
+# footer
+||{{cdn.projectone}}/CatfishBlock.*.js^
+||{{cdn.projectone}}/FooterBlock.*.js^
+||{{cdn.projectone}}/RteBlock.*.js^
+||{{cdn.projectone}}/BackgroundWrapperBlock.*.js^
+# Remove since it would disable categories
+!||{{cdn.projectone}}/ImageBlock.*.js^
+||{{cdn.projectone}}/ButtonBlock.*.js^
+# video join prompts
+||{{cdn.projectone}}/Join*Block.*.js^
+||{{cdn.projectone}}/PricepointSectionBlock.*.js^
+# featured
+||{{cdn.projectone}}/FeaturedActorListBlock.*.js^
+||{{cdn.projectone}}/FeaturedMovieListBlock.*.js^
+
+!! Nubiles
+# join
+||{{cdn.nubilesporn}}/scroll-hover-join-form.js^
+||{{cdn.nubilefilms}}/scroll-hover-join-form.js^
+||{{cdn.nubilesporn}}/join-form-prompt.js^
+||{{cdn.nubilefilms}}/join-form-prompt.js^
+!slider
+||{{cdn.nubilesporn}}/front-page-slider.js^
+||{{cdn.nubilefilms}}/front-page-slider.js^
+# carousels
+||{{cdn.nubilesporn}}/series-carousel.js^
+||{{cdn.nubilefilms}}/series-carousel.js^
+# sites
+||{{cdn.nubilesporn}}/site-info-banner.js^
+||{{cdn.nubilefilms}}/site-info-banner.js^
+# search
+||{{cdn.nubilesporn}}/dropdown-search.js^
+||{{cdn.nubilefilms}}/dropdown-search.js^
+# notifications
+||{{cdn.nubilesporn}}/notifications.js^
+||{{cdn.nubilefilms}}/notifications.js^
+# Cosmetic
+{{network.nubiles}}##.carousel
+{{network.nubiles}}##.masonry-ltr
+{{network.nubiles}}##.nav-right.ml-auto.navbar-nav
+{{network.nubiles}}##.nav-item > a.nav-link[href="/blog"]
+# join
+{{network.nubiles}}##.form-join-horizontal
+{{network.nubiles}}##.row.watch-page-join-header
+{{network.nubiles}}##.hover-join
+{{network.nubiles}}##.header-banner-wrapper
+# footer
+{{network.nubiles}}##.py-3.footer-container
+{{network.nubiles}}##.site-info-banner
+# series
+{{network.nubiles}}##.series-banner
+
+!! Blacked
+
+!! KellyMadison
+# carousel
+{{network.kellymadison}}##.main-carousel
+# upcoming cards
+{{network.kellymadison}}##.upcoming-model.card
+# newest
+{{network.kellymadison}}##section.p-0:has(> .pb-0.has-background-dark.container)
+! navbar
+{{network.kellymadison}}##.navbar-link
+{{network.kellymadison}}##a[href*="/signup/signup.php"]
+{{network.kellymadison}}##span.is-hidden-touch.is-paddingless.navbar-item
+! members
+{{network.kellymadison}}##div.is-hidden-touch.navbar-item > .buttons
+# promo / breaks
+{{network.kellymadison}}##.promoBar
+{{network.kellymadison}}##section.page-break
+# newsletter
+{{network.kellymadison}}##.hero-body
+{{network.kellymadison}}##.footer
+# video downloads
+{{network.kellymadison}}##.card.join-options
+{{network.kellymadison}}##.has-background-dark.has-padding.container
+# files
+||tour-cdn.kellymadisonmedia.com/content/assets/tf/js/js.cookie.js^
+||www.teenfidelity.com/promo.js^
+||www.pornfidelity.com/promo.js^
+||unpkg.com/flickity@2/dist/flickity.pkgd.min.js^$domain=teenfidelity.com|pornfidelity.com
+
+!! MileHigh Media 
+# sweetsinner, sweetheartvideo, realityjunkies, familysinners
+# join banner
+{{network.milehighmedia}}##div[data-cy="catfish"]
+# join prompts
+{{network.milehighmedia}}##a[href="/join"]
+{{network.milehighmedia}}##li:has(>a[href="/join"])
+# login prompts
+{{network.milehighmedia}}##a[href="/memberlogin"]
+{{network.milehighmedia}}##li:has(>a[href="/memberlogin"])
+# landing page media
+||static-landing-assets.project1content.com
+||static-landing-assets.project1content.com/*/*.mp4
+## single site
+# 2x2 square grid
+realityjunkies.com##.sc-1fep8qc-0.hOKUVn:has(>.sc-1deoyo3-0.bbrHwr)
+# join
+sweetheartvideo.com##a[href="/joinf"]
+sweetheartvideo.com##li:has(>a[href="/joinf"])
+sweetheartvideo.com##.sc-1fep8qc-0.bjmtSx\
+# footer ads
+sweetheartvideo.com,sweetsinner.com##.sc-1deoyo3-0.grnnXv
+milehighmedia.com,realityjunkies.com,familysinners.com##.sc-iz9a8b-0.bbOsHr
+
+!! Swallowed
+# all sites
+{{network.swallowed}}##.home-slider
+{{network.swallowed}}##.modal-join
+{{network.swallowed}}##.middle-already-member
+{{network.swallowed}}##.footer-wrap
+{{network.swallowed}}##footer
+{{network.swallowed}}##.instant-access
+{{network.swallowed}}##li > [href$="/login"]
+{{network.swallowed}}##.to-preload.dropdown-toggle
+{{network.swallowed}}##body > .hidden-xs
+||network.swallowed/api/countdown
+||network.swallowed/api/announcements
+# socials
+tour.swallowed.com,tour.trueanal.com##.visible-lg.il-social
+tour.nympho.com,tour.allanal.com,tour.analonly.com,dirtyauditions.com##.twitter.nav-item
+tour.nympho.com,tour.allanal.com,tour.analonly.com,dirtyauditions.com##.instagram.nav-item
+## single site
+# class
+tour.swallowed.com##.benefits
+tour.trueanal.com##.featured-videos
+tour.trueanal.com##.home-banner
+dirtyauditions.com##.header-container
+tour.swallowed.com,tour.trueanal.com##.content-downloads
+tour.swallowed.com,tour.trueanal.com##.content-photo-preview
+tour.allanal.com,tour.analonly.com##.sub-footer-nav
+# id
+tour.allanal.com,tour.analonly.com###videoheader
+
+!! XEmpire
+# filename
+||cloudfront.net/promomessages/dist.js
+# class
+{{network.xempire}}##.EmailGrabber-BackgroundBox
+{{network.xempire}}##.networkCTA-Link
+{{network.xempire}}##.ScenePlayerHeaderDesktop-TrialButton-Button
+{{network.xempire}}##.Join-Link
+{{network.xempire}}##.Login-Link
+{{network.xempire}}##.promobar-container
+# type
+{{network.xempire}}##footer
+{{network.xempire}}##video[autoplay loop]
+# id
+{{network.xempire}}###headerSlot
+
+!!! END - Network
+
+!!! START - Single Sites
+!! 5K
+# class
+{{network.5kporn}}##.bx-wrapper
+{{network.5kporn}}##.intro-text
+{{network.5kporn}}##.specs-text
+{{network.5kporn}}##.video-area
+{{network.5kporn}}##.big-join
+# id
+{{network.5kporn}}###nav-join-full
+{{network.5kporn}}###episodes-list > .text-center.card
+{{network.5kporn}}###crypto-nav-top
+# div
+{{network.5kporn}}##div.join-option
+
+!! BANG
+{{site.bang}}##.menu-item:has(>.more:has-text(cams))
+{{site.bang}}##.menu-item:has(>.more:has-text(deals))
+{{site.bang}}##button[data-action="click->modal#loginJoinModal"]
+{{site.bang}}##div:has(img[alt="Join today!"])
+{{site.bang}}##.w-full:has(>.w-full>a[href="/porn-on-tv/chromecast"])
+{{site.bang}}##footer
+{{site.bang}}##.home-carousel
+
+!! BangBros
+# class
+{{site.bangbros}}##.hero-banner-wrapper
+{{site.bangbros}}##.action-buttons > .btn-warning.btn-lg.btn
+{{site.bangbros}}##.hdrRgt
+{{site.bangbros}}##.midBtm
+{{site.bangbros}}##.btmPgTxt
+{{site.bangbros}}##.plyrRgt
+{{site.bangbros}}##.embed-wrapper
+# id
+{{site.bangbros}}###site-header
+{{site.bangbros}}###warning-overlay
+# Scriptlet
+{{site.bangbros}}##+js(ra, class, .page-content-wrapper, blur-active)
+
+!! Brazzers
+{{site.brazzers}}##[href="/joinf"]
+{{site.brazzers}}##[href="/highlights"]
+
+!! DaneJones
+{{site.dj}}##[href="/join"]
+
+!! DorcelClub
+# class
+{{site.dorcel}}##.mea.block
+{{site.dorcel}}##.editor.block
+{{site.dorcel}}##.small-card.block
+{{site.dorcel}}##.large-card.block
+{{site.dorcel}}##.awards
+{{site.dorcel}}##.promo_banner
+{{site.dorcel}}##.login
+{{site.dorcel}}##.signup
+{{site.dorcel}}##.btn-dl
+{{site.dorcel}}##.no-access
+{{site.dorcel}}##.addToFavorite.favorites_actions
+# id
+{{site.dorcel}}##footer
+# properties
+{{site.dorcel}}##.header.navigation > .items > [href="/en/tv/dorceltv"]
+
+!! ECG
+# class
+{{site.ecg}}##.text-center.s-bottom-btn > .copy-div
+{{site.ecg}}##.home-banner-section-2
+{{site.ecg}}##.copy-right-section
+{{site.ecg}}##.navbar-nav.nav.social-icon
+# properties
+{{site.ecg}}##a[href^="https://join.{{site.ecg}}/signup/signup.php"]
+{{site.ecg}}##a[href^="https://www.{{site.ecg}}/members/"]
+{{site.ecg}}##a[href="https://{{site.ecg}}/site/pages.php"]
+# files
+||{{site.ecg}}/site/js/tour.js^
+
+!! EvilAngel
+# class
+{{site.ea}}##.Login-Link
+{{site.ea}}##.Join-Link
+{{site.ea}}##.promobar
+{{site.ea}}##.EmailGrabber-BackgroundBox
+{{site.ea}}##.homeCTA-Link
+{{site.ea}}##.Footer-Freetour-SiteSEO
+# id
+{{site.ea}}##footer
+
+!! FilthyKings
+# class
+{{network.filthykings}}##.Footer-Freetour-SiteSEO
+{{network.filthykings}}##.EmailGrabber-BackgroundBox
+
+!! GirlfriendFilms
+# class
+{{site.gffilms}}##.headerTopWrapper
+{{site.gffilms}}##.GA_Id_headerJoin
+{{site.gffilms}}##.slideDown_Login
+{{site.gffilms}}##.Gamma_Slot.homeBanner
+{{site.gffilms}}##.Gamma_Slot.awardsBanner
+{{site.gffilms}}##.Cms_HtmlSnippet_EmailGrabber
+{{site.gffilms}}##.Gamma_Slot.footer 
+{{site.gffilms}}##.downloadItem
+
+!! GotFilled
+# class
+{{site.gfilled}}##.benefits-box
+{{site.gfilled}}##.user-controls
+# id
+{{site.gfilled}}###favorite
+
+!! Inserted
+# filename
+||u3w7x9g9.ssl.hwcdn.net/holiday/
+# class
+{{site.insert}}##.cta
+{{site.insert}}##.btn-link
+{{site.insert}},{{site.gfilled}}##.btn-join-mobile
+{{site.insert}},{{site.gfilled}}##.btn-login
+{{site.insert}},{{site.gfilled}}##.btn-join
+# id
+{{site.insert}},{{site.gfilled}}###announcement-wrap
+{{site.insert}},{{site.gfilled}}##footer
+
+!! JulesJordan/ ManuelFerrara
+# Class
+{{site.jj}}##.socials
+{{site.mf}}##.parallax
+{{site.jj}}##div.comments_box
+# id
+{{site.jj}}###wowslider-container1
+{{site.mf}}###wowslider-container1
+{{site.jj}}###mediabox_parent
+# property
+{{site.jj}}##a[href="/members/"]
+{{site.mf}}##a[href="/members/"]
+! live
+{{site.jj}}##a.navoption:has-text(LIVE GIRLS)
+{{site.mf}}##[href="http://www.manuelferrara.tv"]
+! join
+{{site.jj}}##a:has-text(JOIN NOW)
+{{site.mf}}##a:has-text(JOIN NOW)
+! support
+{{site.mf}}##li.topmenu > [href^="https://www.{{site.jj}}/trial/pages.php"]
+# files
+||{{site.jj}}/engine1/wowslider.js^
+||{{site.mf}}/engine1/wowslider.js^
+||{{site.jj}}/trial/js/fancybox/helpers/jquery.fancybox-thumbs.js^
+||{{site.mf}}/trial/js/fancybox/helpers/jquery.fancybox-thumbs.js^
+||{{site.jj}}/trial/js/fancybox/jquery.fancybox.js^
+||{{site.mf}}/trial/js/fancybox/jquery.fancybox.js^
+# site
+enter.{{site.mf}}
+# contact
+{{site.mf}}##[src="images/trailer_overlay1.png"]
+
+!! Kink
+# hero
+{{site.kink}}##.cta-button.button.join-button
+{{site.kink}}##.featured-spacev2
+{{site.kink}}##footer
+# hero
+{{site.kink}}##.lg-header.info-header
+{{site.kink}}##.hero-player
+# nav links
+{{site.kink}}##.nav-community
+{{site.kink}}##.nav-live
+{{site.kink}}##.nav-vr
+{{site.kink}}##.nav-store
+# login
+{{site.kink}}##.unauthenticated
+{{site.kink}}##.auth-comment-button
+{{site.kink}}##.favorite-button
+{{site.kink}}##.popped.comment-ratings-popper
+# store
+{{site.kink}}##.kink-store-section
+{{site.kink}}##.store.swimlane-section
+{{site.kink}}##.control > .buy-shoot
+{{site.kink}}##.product-tag-wrapper
+
+!! LifeSelector
+{{site.lifeselector}}##.profile-menu
+{{site.lifeselector}}##.flash-sale-opener-btn
+{{site.lifeselector}}##.flash-sale
+{{site.lifeselector}}##.bug-bounty
+{{site.lifeselector}}##.cams
+{{site.lifeselector}}##.sidebar-campaign-logo
+||fantxt.com/widget.js
+
+!! MetArt/ SexArt
+# floating free trial
+{{site.sexart}},{{site.metart}}##div>a:has-text(FREE TRIAL)
+# nav
+{{site.sexart}},{{site.metart}}##.internal-links.page-links > [href="/blog"]
+{{site.sexart}},{{site.metart}}##.live-girls
+{{site.sexart}},{{site.metart}}##.join-btn
+{{site.sexart}},{{site.metart}}##.guest-btns.sign-in
+# video preview
+{{site.sexart}},{{site.metart}}##.text-center.guest-panel
+{{site.sexart}},{{site.metart}}##.btn-access
+# hero
+{{site.sexart}}##.email-signup-section
+{{site.metart}}##.slick-initialized.slick-slider
+{{site.metart}}##.slider-container.hero
+# main page junk
+{{site.sexart}}##.testimonials
+{{site.sexart}}##.security-features-wrapper
+{{site.sexart}}##.security-icons-wrapper
+{{site.sexart}},{{site.metart}}##.last-chance-buttons
+{{site.sexart}},{{site.metart}}##div:has(> .container:has(> .compliance))
+
+!! MyPervyFamily
+# class
+{{site.mypervyfamily}}##.Footer-Freetour-SiteSEO
+{{site.mypervyfamily}}##.EmailGrabber-BackgroundBox
+{{site.mypervyfamily}}##.homeCTA-Link
+{{site.mypervyfamily}}##div:has(>div.ContentBlock:has(.component-CarouselSlick-default))
+{{site.mypervyfamily}},{{network.filthykings}}##.Header-Freetour-Login-Link
+{{site.mypervyfamily}},{{network.filthykings}}##.Header-Freetour-Join-Link
+{{site.mypervyfamily}},{{network.filthykings}}##.ScenePlayerHeaderDesktop-TrialButton-Button
+# id
+{{site.mypervyfamily}},{{network.filthykings}}###comments
+# property
+{{network.filthykings}}##a[href="/en/join"]
+
+!! NetGirl
+! NetGirl
+# property
+{{network.ng.ng}}##div:has(> a> span> strong)
+{{network.ng.ng}}##div[class^="Home_otherSites"]
+{{network.ng.ng}}##div[class^="Home_clickHere"]
+{{network.ng.ng}}##div[class^="Home_bonusLinks"]
+{{network.ng.ng}}##div[class^="Home_footer"]
+
+! NVG
+# class
+{{network.ng.nvg}}##.bonusSites
+{{network.ng.nvg}}##.welcome
+{{network.ng.nvg}}##.join
+{{network.ng.nvg}}##.pagination
+{{network.ng.nvg}}##.playVideo
+# id
+{{network.ng.nvg}}##footer
+# property
+{{network.ng.nvg}}##[href="https://vip.{{network.ng.nvg}}/members/"]
+# join
+{{network.ng.nvg}}##a[href="/join"]:style(pointer-events:none!important)
+
+! CastingCouchHD
+# class
+{{network.ng.cc}}##.navigation
+{{network.ng.cc}}##.bannerVideo
+{{network.ng.cc}}##.fullVideo
+{{network.ng.cc}}##.otherSites
+{{network.ng.cc}}##.midlinks
+{{network.ng.cc}}##.subLinks
+{{network.ng.cc}}##.pagination
+# id
+{{network.ng.cc}}##header
+{{network.ng.cc}}##footer
+
+!! NewSensations
+# class
+{{site.newsensations}}##.sidepop
+{{site.newsensations}}##.clear.pics
+{{site.newsensations}}##.clear.hidemobile.centerwrap
+{{site.newsensations}}##.join
+{{site.newsensations}}##.download
+{{site.newsensations}}##.unlock
+! email
+{{site.newsensations}}##.emailtext
+! interrupts
+{{site.newsensations}}##.modelsMidBanner
+{{site.newsensations}}##.dvdMidBanner
+! footer
+{{site.newsensations}}##footer
+# id
+{{site.newsensations}}###banner-fade
+# property
+{{site.newsensations}}##a[href^="https://join.{{site.newsensations}}/signup/signup.php"]
+{{site.newsensations}}##a[href="https://{{site.newsensations}}/members/"]
+# banners
+{{site.newsensations}}##[href^="https://newsensations.com/store"]
+{{site.newsensations}}##[href="https://vod.newsensations.com"]
+
+!! OnlyTeenBlowjobs
+! workaround for loading
+||/1x1Transparent.gif$image,domain={{site.otbj}},redirect=1x1.gif
+# id
+{{site.otbj}}###PromoPopupLink
+{{site.otbj}}###HomeTitleSites
+{{site.otbj}}###HomeBonusSites
+{{site.otbj}}###emailGrabber
+{{site.otbj}}###PromoPopupLink
+{{site.otbj}}###HomeTitleSites
+{{site.otbj}}###HomeBonusSites
+{{site.otbj}}###Header_JoinLink
+{{site.otbj}}###MemberLogin
+{{site.otbj}}###PicturesList_Home
+{{site.otbj}}###footerWrapper
+{{site.otbj}}###mainShowcase
+
+!! PornDudeCasting
+! header
+{{site.pdc}}##.header__ctrl > .header__login
+{{site.pdc}}##li.header__nav-item:has(a[href="/extra-videos/"])
+{{site.pdc}}##li.header__nav-item:has(a[href^="https://porndudeshop.com"])
+{{site.pdc}}##li.header__nav-item:has(a[href="https://theporndude.com/"])
+{{site.pdc}}##li.header__nav-item:has(a[href^="http://join.porndudecash.com"])
+! hero
+{{site.pdc}}##.hero
+! text blurb
+{{site.pdc}}##.container:has(>.text-block)
+! purchase/ login prompt
+{{site.pdc}}##.hide-mobile.block-rf > .header__login-btn
+{{site.pdc}}##.js-purchase-block
+{{site.pdc}}##.hide-mobile.video__tools-info > .item-zip.video__tools-info-item
+{{site.pdc}}##.model__img > .videos-scroll.content-block.extra-videos
+! footer
+{{site.pdc}}##.footer
+! comment
+{{site.pdc}}##.comments.block-comments
+
+!! PornPros
+# filename
+||dzvdhp56mgzue.cloudfront.net/specials.js^
+# class
+{{network.pornplus}}##.payment-popup
+# id
+{{network.pornplus}}###featured-video-player
+{{network.pornplus}}###disclaimer
+# property
+{{network.pornplus}}##a[href="/login"]
+
+!! PornWorld
+# network
+||{{site.pornworld}}/api/casting/thumbnail/view
+||account.analvids.com/api/jdialog/pornworld.js
+# header
+{{site.pornworld}}##.join-now
+{{site.pornworld}}##.__sign_in
+{{site.pornworld}}##.d-xl-none.mt-10.border-0.menu__list
+# homepage
+{{site.pornworld}}##.carousel.slide
+{{site.pornworld}}##.banner
+{{site.pornworld}}##footer
+
+!! POVPerv
+# class
+{{site.povperv}}##.join-now
+{{site.povperv}}##.join-middle
+{{site.povperv}}##.home-header
+{{site.povperv}}##.home-banner
+{{site.povperv}}##.top-videos.content-items-wrap > .content-items.container > .fill-top
+{{site.povperv}}##.footer-wrap
+{{site.povperv}}##.paypal-box
+{{site.povperv}}##.expand.paypal-box-wrap
+
+!! Squirted
+{{site.squirted}}##li:has(> a[href^="https://site-ma"])
+
+!! SpankMonster
+! anti-break pixel override
+||adultempire.com/res/pm/pixel.gif$image,domain=spankmonster.com,redirect=1x1.gif
+! homepage containers
+{{site.sm}}##.featured-video-release
+{{site.sm}}##.membership-cards-container
+{{site.sm}}##.container-fluid.nav-beacon
+{{site.sm}}##.container:has(>.text-center:has-text(Membership Options))
+{{site.sm}}##.container-fluid[style="padding: 0; border: 0"]
+! footer/header
+{{site.sm}}##footer
+! header dropdown
+{{site.sm}}##.nav-link[data-label="Shop Dropdown"]
+{{site.sm}}##.nav-link[data-label="Sex Toys"]
+{{site.sm}}##.nav-link[data-label="Store"]
+! join button
+{{site.sm}}##a.btn[href="/join"]
+
+!! Spizoo
+! network
+||assets.spizoo.com/promo/admin/assets/js/getPromoData.php
+||assets.spizoo.com/promo/admin/assets/js/set-promotion.js
+||assets.spizoo.com/promo/admin/assets/js/set-promo.js
+! site
+{{network.spizoo.mrlucky}},{{network.spizoo.creamher}}##.banner-join
+{{network.spizoo.mrlucky}},{{network.spizoo.creamher}}##footer
+! MrLuckyPOV
+||{{network.spizoo.mrlucky}}/assets/js/tour.js
+||content.mrluckypov.com/content/home_video/tour/Mrluckypov-Tour*.mp4
+{{network.spizoo.mrlucky}}###home-scene
+{{network.spizoo.mrlucky}}###get-full-access-link
+{{network.spizoo.mrlucky}}###loginButton
+{{network.spizoo.mrlucky}}###joinButton
+! Creampie4K
+||{{network.spizoo.creamher}}/assets/js/tour.js
+{{network.spizoo.creamher}}##.join_area
+{{network.spizoo.creamher}}##.join
+{{network.spizoo.creamher}}##.banner-originals
+{{network.spizoo.creamher}}##.home-slider
+{{network.spizoo.creamher}}##[title="Login"]
+{{network.spizoo.creamher}}##a[data-target="#join-modal"]
+
+!! TeamSkeet
+# class
+{{site.teamskeet}}##.join-link
+{{site.teamskeet}}##.right-menu
+{{site.teamskeet}}##.text-center.bannerWrapper
+{{site.teamskeet}}##.availablePages.m-0.row
+{{site.teamskeet}}##.py-3
+{{site.teamskeet}}##.py-4
+{{site.teamskeet}}##.carouselContainer
+{{site.teamskeet}}##.my-4.container
+# property
+{{site.teamskeet}}##.desktop.left-menu > .menu-wrapper > div.navmenu-item:has(> a[href="/series/premium"])
+
+!! Throated
+{{site.thro}}##.Cms_HtmlSnippet_BigViewAll
+{{site.thro}}##.Gamma_Link_HomeBanner
+{{site.thro}}###homeSlider
+{{site.thro}}###networkHomeLatestScenes
+{{site.thro}}###footer
+{{site.thro}}###joinButton
+{{site.thro}}###joinLoginLink
+{{site.thro}}###commentsWrapper
+
+!! TrueAmateurs
+{{site.ta}}##li:has(> a[href="/amateurswanted"])
+{{site.ta}}##li:has(> a[href$="/login"])
+
+!! TMWPOV
+# class
+{{site.tmwpov}}##.button-list > .login
+{{site.tmwpov}}##.button-list > .join
+{{site.tmwpov}}##.menu > nav > .live-label
+{{site.tmwpov}}##.parallax-window.join-type-1
+{{site.tmwpov}}##.big-button
+{{site.tmwpov}}##.cookie
+{{site.tmwpov}}##.footer-main
+# id
+{{site.tmwpov}}##aside
+
+!! TopWebModels
+# class
+{{network.topwebmodels}}##.mb-4.home-header-video
+{{network.topwebmodels}}##.latest-comments
+{{network.topwebmodels}}##.mt-5.site-logo-wrap
+{{network.topwebmodels}}##.slick-slider
+{{network.topwebmodels}}##.benefits-wrap
+{{network.topwebmodels}}##.cta-join-wrap
+{{network.topwebmodels}}##.content-count-wrap
+{{network.topwebmodels}}##.btn-login
+{{network.topwebmodels}}##.comments-gallery
+{{network.topwebmodels}}##.user-buttons
+# property
+{{network.topwebmodels}}##a[href="/sign-up"]
+
+!! Wicked
+# class
+{{site.wicked}}##.Header-Freetour-Login-Link
+{{site.wicked}}##.Header-Freetour-Join-Link
+{{site.wicked}}##.slick-initialized.ImageCarousel.slick-slider
+{{site.wicked}}##.VideoWithCTA-desktop
+{{site.wicked}}##.EmailGrabberTwitterFeed-Container
+{{site.wicked}}##.homeCTA-Link
+{{site.wicked}}##.Footer-Freetour-SiteSEO
+# id
+{{site.wicked}}##footer
+
+!!! END - Single Sites

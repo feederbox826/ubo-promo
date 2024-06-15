@@ -1,0 +1,10 @@
+{
+  "name": "ubo",
+  "description": "adblock filter",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "dependencies": {
+    "mustache": "^4.2.0"
+  }
+}
