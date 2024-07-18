@@ -1,0 +1,11 @@
+[uBlock Origin]
+! Title: feederbox-cookie
+! Version: {{version}}
+! Expires: 1 day
+
+! must be added to trustedListPrefixes
+! https://github.com/uBlockOrigin/uBlock-issues/discussions/2895#discussioncomment-7348103
+! not for the faint of heart
+
+!!! START - Network
+{{network.nubiles}}#%#//scriptlet('trusted-set-cookie', '18-plus-modal', 'hidden')

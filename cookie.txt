@@ -1,0 +1,11 @@
+[uBlock Origin]
+! Title: feederbox-cookie
+! Version: 2024-07-18
+! Expires: 1 day
+
+! must be added to trustedListPrefixes
+! https://github.com/uBlockOrigin/uBlock-issues/discussions/2895#discussioncomment-7348103
+! not for the faint of heart
+
+!!! START - Network
+brattysis.com,princesscum.com,myfamilypies.com,nubileset.com,realitysis.com,petitehdporn.com,nubiles-casting.com,nubiles.net,nubiles-porn.com,smashed.xxx,teacherfucksteens.com,nubilefilms.com,youngermommy.competiteballerinasfucked.com,stepsiblingscaught.com,momsteachsex.com,nubilesunscripted.com,cumswappingsis.com,familyswap.xxx,badteenspunished.com,bountyhunterporn.com,lilsis.com,caughtmycoach.com,cheatingsis.com,daddyslilangel.com,driverxxx.com,detentiongirls.com#%#//scriptlet('trusted-set-cookie', '18-plus-modal', 'hidden')

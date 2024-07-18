@@ -1,6 +1,6 @@
 [uBlock Origin]
 ! Title: feederbox-promo
-! Version: 2024-06-15
+! Version: 2024-07-18
 ! Expires: 1 day
 
 !!! START - css tweaks
@@ -62,7 +62,7 @@ pornhub.com##.rightButtonHolder.contentContainer
 
 !!! START - Generic
 # a /join
-brattysis.com,princesscum.com,myfamilypies.com,nubileset.com,petitehdporn.com,nubiles-casting.com,nubiles-porn.com,nubilefilms.com,stepsiblingscaught.com,cumswappingsis.com,anal4k.com,castingcouch-x.com,cum4k.com,exotic4k.com,facials4k.com,fantasyhd.com,girlcum.com,holed.com,lubed.com,nannyspy.com,passion-hd.com,pornpros.com,pornplus.com,povd.com,spyfam.com,tiny4k.com,brazzers.com,mofos.com,twistys.com##a[href="/join"]
+brattysis.com,princesscum.com,myfamilypies.com,nubileset.com,realitysis.com,petitehdporn.com,nubiles-casting.com,nubiles.net,nubiles-porn.com,smashed.xxx,teacherfucksteens.com,nubilefilms.com,youngermommy.competiteballerinasfucked.com,stepsiblingscaught.com,momsteachsex.com,nubilesunscripted.com,cumswappingsis.com,familyswap.xxx,badteenspunished.com,bountyhunterporn.com,lilsis.com,caughtmycoach.com,cheatingsis.com,daddyslilangel.com,driverxxx.com,detentiongirls.com,anal4k.com,castingcouch-x.com,cum4k.com,exotic4k.com,facials4k.com,fantasyhd.com,girlcum.com,holed.com,lubed.com,nannyspy.com,passion-hd.com,pornpros.com,pornplus.com,povd.com,spyfam.com,tiny4k.com,brazzers.com,mofos.com,twistys.com##a[href="/join"]
 anal4k.com,castingcouch-x.com,cum4k.com,exotic4k.com,facials4k.com,fantasyhd.com,girlcum.com,holed.com,lubed.com,nannyspy.com,passion-hd.com,pornpros.com,pornplus.com,povd.com,spyfam.com,tiny4k.com,brazzers.com,mofos.com,twistys.com##[href^="https://site-ma."]
 
 squirted.com,trueamateurs.com##a[href$="/join"]
@@ -120,20 +120,20 @@ julesjordan.com,manuelferrara.com##.footer
 ||static.nubiles-porn.com/assets/bootstrapBase/js/edge-cms/notifications.js^
 ||static.nubilefilms.com/assets/bootstrapBase/js/edge-cms/notifications.js^
 # Cosmetic
-brattysis.com,princesscum.com,myfamilypies.com,nubileset.com,petitehdporn.com,nubiles-casting.com,nubiles-porn.com,nubilefilms.com,stepsiblingscaught.com,cumswappingsis.com##.carousel
-brattysis.com,princesscum.com,myfamilypies.com,nubileset.com,petitehdporn.com,nubiles-casting.com,nubiles-porn.com,nubilefilms.com,stepsiblingscaught.com,cumswappingsis.com##.masonry-ltr
-brattysis.com,princesscum.com,myfamilypies.com,nubileset.com,petitehdporn.com,nubiles-casting.com,nubiles-porn.com,nubilefilms.com,stepsiblingscaught.com,cumswappingsis.com##.nav-right.ml-auto.navbar-nav
-brattysis.com,princesscum.com,myfamilypies.com,nubileset.com,petitehdporn.com,nubiles-casting.com,nubiles-porn.com,nubilefilms.com,stepsiblingscaught.com,cumswappingsis.com##.nav-item > a.nav-link[href="/blog"]
+brattysis.com,princesscum.com,myfamilypies.com,nubileset.com,realitysis.com,petitehdporn.com,nubiles-casting.com,nubiles.net,nubiles-porn.com,smashed.xxx,teacherfucksteens.com,nubilefilms.com,youngermommy.competiteballerinasfucked.com,stepsiblingscaught.com,momsteachsex.com,nubilesunscripted.com,cumswappingsis.com,familyswap.xxx,badteenspunished.com,bountyhunterporn.com,lilsis.com,caughtmycoach.com,cheatingsis.com,daddyslilangel.com,driverxxx.com,detentiongirls.com##.carousel
+brattysis.com,princesscum.com,myfamilypies.com,nubileset.com,realitysis.com,petitehdporn.com,nubiles-casting.com,nubiles.net,nubiles-porn.com,smashed.xxx,teacherfucksteens.com,nubilefilms.com,youngermommy.competiteballerinasfucked.com,stepsiblingscaught.com,momsteachsex.com,nubilesunscripted.com,cumswappingsis.com,familyswap.xxx,badteenspunished.com,bountyhunterporn.com,lilsis.com,caughtmycoach.com,cheatingsis.com,daddyslilangel.com,driverxxx.com,detentiongirls.com##.masonry-ltr
+brattysis.com,princesscum.com,myfamilypies.com,nubileset.com,realitysis.com,petitehdporn.com,nubiles-casting.com,nubiles.net,nubiles-porn.com,smashed.xxx,teacherfucksteens.com,nubilefilms.com,youngermommy.competiteballerinasfucked.com,stepsiblingscaught.com,momsteachsex.com,nubilesunscripted.com,cumswappingsis.com,familyswap.xxx,badteenspunished.com,bountyhunterporn.com,lilsis.com,caughtmycoach.com,cheatingsis.com,daddyslilangel.com,driverxxx.com,detentiongirls.com##.nav-right.ml-auto.navbar-nav
+brattysis.com,princesscum.com,myfamilypies.com,nubileset.com,realitysis.com,petitehdporn.com,nubiles-casting.com,nubiles.net,nubiles-porn.com,smashed.xxx,teacherfucksteens.com,nubilefilms.com,youngermommy.competiteballerinasfucked.com,stepsiblingscaught.com,momsteachsex.com,nubilesunscripted.com,cumswappingsis.com,familyswap.xxx,badteenspunished.com,bountyhunterporn.com,lilsis.com,caughtmycoach.com,cheatingsis.com,daddyslilangel.com,driverxxx.com,detentiongirls.com##.nav-item > a.nav-link[href="/blog"]
 # join
-brattysis.com,princesscum.com,myfamilypies.com,nubileset.com,petitehdporn.com,nubiles-casting.com,nubiles-porn.com,nubilefilms.com,stepsiblingscaught.com,cumswappingsis.com##.form-join-horizontal
-brattysis.com,princesscum.com,myfamilypies.com,nubileset.com,petitehdporn.com,nubiles-casting.com,nubiles-porn.com,nubilefilms.com,stepsiblingscaught.com,cumswappingsis.com##.row.watch-page-join-header
-brattysis.com,princesscum.com,myfamilypies.com,nubileset.com,petitehdporn.com,nubiles-casting.com,nubiles-porn.com,nubilefilms.com,stepsiblingscaught.com,cumswappingsis.com##.hover-join
-brattysis.com,princesscum.com,myfamilypies.com,nubileset.com,petitehdporn.com,nubiles-casting.com,nubiles-porn.com,nubilefilms.com,stepsiblingscaught.com,cumswappingsis.com##.header-banner-wrapper
+brattysis.com,princesscum.com,myfamilypies.com,nubileset.com,realitysis.com,petitehdporn.com,nubiles-casting.com,nubiles.net,nubiles-porn.com,smashed.xxx,teacherfucksteens.com,nubilefilms.com,youngermommy.competiteballerinasfucked.com,stepsiblingscaught.com,momsteachsex.com,nubilesunscripted.com,cumswappingsis.com,familyswap.xxx,badteenspunished.com,bountyhunterporn.com,lilsis.com,caughtmycoach.com,cheatingsis.com,daddyslilangel.com,driverxxx.com,detentiongirls.com##.form-join-horizontal
+brattysis.com,princesscum.com,myfamilypies.com,nubileset.com,realitysis.com,petitehdporn.com,nubiles-casting.com,nubiles.net,nubiles-porn.com,smashed.xxx,teacherfucksteens.com,nubilefilms.com,youngermommy.competiteballerinasfucked.com,stepsiblingscaught.com,momsteachsex.com,nubilesunscripted.com,cumswappingsis.com,familyswap.xxx,badteenspunished.com,bountyhunterporn.com,lilsis.com,caughtmycoach.com,cheatingsis.com,daddyslilangel.com,driverxxx.com,detentiongirls.com##.row.watch-page-join-header
+brattysis.com,princesscum.com,myfamilypies.com,nubileset.com,realitysis.com,petitehdporn.com,nubiles-casting.com,nubiles.net,nubiles-porn.com,smashed.xxx,teacherfucksteens.com,nubilefilms.com,youngermommy.competiteballerinasfucked.com,stepsiblingscaught.com,momsteachsex.com,nubilesunscripted.com,cumswappingsis.com,familyswap.xxx,badteenspunished.com,bountyhunterporn.com,lilsis.com,caughtmycoach.com,cheatingsis.com,daddyslilangel.com,driverxxx.com,detentiongirls.com##.hover-join
+brattysis.com,princesscum.com,myfamilypies.com,nubileset.com,realitysis.com,petitehdporn.com,nubiles-casting.com,nubiles.net,nubiles-porn.com,smashed.xxx,teacherfucksteens.com,nubilefilms.com,youngermommy.competiteballerinasfucked.com,stepsiblingscaught.com,momsteachsex.com,nubilesunscripted.com,cumswappingsis.com,familyswap.xxx,badteenspunished.com,bountyhunterporn.com,lilsis.com,caughtmycoach.com,cheatingsis.com,daddyslilangel.com,driverxxx.com,detentiongirls.com##.header-banner-wrapper
 # footer
-brattysis.com,princesscum.com,myfamilypies.com,nubileset.com,petitehdporn.com,nubiles-casting.com,nubiles-porn.com,nubilefilms.com,stepsiblingscaught.com,cumswappingsis.com##.py-3.footer-container
-brattysis.com,princesscum.com,myfamilypies.com,nubileset.com,petitehdporn.com,nubiles-casting.com,nubiles-porn.com,nubilefilms.com,stepsiblingscaught.com,cumswappingsis.com##.site-info-banner
+brattysis.com,princesscum.com,myfamilypies.com,nubileset.com,realitysis.com,petitehdporn.com,nubiles-casting.com,nubiles.net,nubiles-porn.com,smashed.xxx,teacherfucksteens.com,nubilefilms.com,youngermommy.competiteballerinasfucked.com,stepsiblingscaught.com,momsteachsex.com,nubilesunscripted.com,cumswappingsis.com,familyswap.xxx,badteenspunished.com,bountyhunterporn.com,lilsis.com,caughtmycoach.com,cheatingsis.com,daddyslilangel.com,driverxxx.com,detentiongirls.com##.py-3.footer-container
+brattysis.com,princesscum.com,myfamilypies.com,nubileset.com,realitysis.com,petitehdporn.com,nubiles-casting.com,nubiles.net,nubiles-porn.com,smashed.xxx,teacherfucksteens.com,nubilefilms.com,youngermommy.competiteballerinasfucked.com,stepsiblingscaught.com,momsteachsex.com,nubilesunscripted.com,cumswappingsis.com,familyswap.xxx,badteenspunished.com,bountyhunterporn.com,lilsis.com,caughtmycoach.com,cheatingsis.com,daddyslilangel.com,driverxxx.com,detentiongirls.com##.site-info-banner
 # series
-brattysis.com,princesscum.com,myfamilypies.com,nubileset.com,petitehdporn.com,nubiles-casting.com,nubiles-porn.com,nubilefilms.com,stepsiblingscaught.com,cumswappingsis.com##.series-banner
+brattysis.com,princesscum.com,myfamilypies.com,nubileset.com,realitysis.com,petitehdporn.com,nubiles-casting.com,nubiles.net,nubiles-porn.com,smashed.xxx,teacherfucksteens.com,nubilefilms.com,youngermommy.competiteballerinasfucked.com,stepsiblingscaught.com,momsteachsex.com,nubilesunscripted.com,cumswappingsis.com,familyswap.xxx,badteenspunished.com,bountyhunterporn.com,lilsis.com,caughtmycoach.com,cheatingsis.com,daddyslilangel.com,driverxxx.com,detentiongirls.com##.series-banner
 
 !! Blacked
 
