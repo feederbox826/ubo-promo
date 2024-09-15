@@ -1,6 +1,6 @@
 [uBlock Origin]
 ! Title: feederbox-promo
-! Version: 2024-08-24
+! Version: 2024-09-15
 ! Expires: 1 day
 
 !!! START - css tweaks
@@ -661,6 +661,13 @@ throated.com###footer
 throated.com###joinButton
 throated.com###joinLoginLink
 throated.com###commentsWrapper
+
+!! Traxxx
+# umami analytics
+||anal.traxxx.me/api/send
+# campaigns
+traxxx.me##.campaign
+traxxx.me##.nolink.watch
 
 !! TrueAmateurs
 trueamateurs.com##li:has(> a[href="/amateurswanted"])
